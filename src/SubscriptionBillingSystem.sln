@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{74E74C0C-3481-4826-A794-40F6672134EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E50BB26B-8CE1-4D94-A2D9-03632B90F5A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F3695F6D-81FB-4A77-8C9A-1C379CC41FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{938EE454-22A8-466E-8278-2BA4353C9DB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{70191AA6-62ED-48CD-B433-73CD32657DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionBillingSystem.Application", "core\SubscriptionBillingSystem.Application\SubscriptionBillingSystem.Application.csproj", "{A34D2FD3-6C8E-7399-FBAF-D3BC1999E900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionBillingSystem.Domain", "core\SubscriptionBillingSystem.Domain\SubscriptionBillingSystem.Domain.csproj", "{D867B906-80A3-40BE-B4E8-F8C601851C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionBillingSystem.Infrastructure", "infrastructure\SubscriptionBillingSystem.Infrastructure\SubscriptionBillingSystem.Infrastructure.csproj", "{6FD02A90-BC7F-DC4C-006F-208B57A56464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionBillingSystem.Api", "presentation\SubscriptionBillingSystem.Api\SubscriptionBillingSystem.Api.csproj", "{5CF781BB-3741-2A51-28D8-9B8DBA48331A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C69F3F4-4185-4410-B7F4-30F55E6A7D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionBillingSystem.UnitTests", "..\tests\SubscriptionBillingSystem.UnitTests\SubscriptionBillingSystem.UnitTests.csproj", "{E6262647-07FC-4388-AE20-48C5B9347383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34D2FD3-6C8E-7399-FBAF-D3BC1999E900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34D2FD3-6C8E-7399-FBAF-D3BC1999E900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34D2FD3-6C8E-7399-FBAF-D3BC1999E900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34D2FD3-6C8E-7399-FBAF-D3BC1999E900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D867B906-80A3-40BE-B4E8-F8C601851C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D867B906-80A3-40BE-B4E8-F8C601851C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D867B906-80A3-40BE-B4E8-F8C601851C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D867B906-80A3-40BE-B4E8-F8C601851C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD02A90-BC7F-DC4C-006F-208B57A56464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD02A90-BC7F-DC4C-006F-208B57A56464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD02A90-BC7F-DC4C-006F-208B57A56464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD02A90-BC7F-DC4C-006F-208B57A56464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF781BB-3741-2A51-28D8-9B8DBA48331A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF781BB-3741-2A51-28D8-9B8DBA48331A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF781BB-3741-2A51-28D8-9B8DBA48331A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF781BB-3741-2A51-28D8-9B8DBA48331A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6262647-07FC-4388-AE20-48C5B9347383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6262647-07FC-4388-AE20-48C5B9347383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6262647-07FC-4388-AE20-48C5B9347383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6262647-07FC-4388-AE20-48C5B9347383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74E74C0C-3481-4826-A794-40F6672134EB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E50BB26B-8CE1-4D94-A2D9-03632B90F5A8} = {74E74C0C-3481-4826-A794-40F6672134EB}
+		{F3695F6D-81FB-4A77-8C9A-1C379CC41FC2} = {74E74C0C-3481-4826-A794-40F6672134EB}
+		{938EE454-22A8-466E-8278-2BA4353C9DB0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{70191AA6-62ED-48CD-B433-73CD32657DFD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A34D2FD3-6C8E-7399-FBAF-D3BC1999E900} = {F3695F6D-81FB-4A77-8C9A-1C379CC41FC2}
+		{D867B906-80A3-40BE-B4E8-F8C601851C3A} = {E50BB26B-8CE1-4D94-A2D9-03632B90F5A8}
+		{6FD02A90-BC7F-DC4C-006F-208B57A56464} = {938EE454-22A8-466E-8278-2BA4353C9DB0}
+		{5CF781BB-3741-2A51-28D8-9B8DBA48331A} = {70191AA6-62ED-48CD-B433-73CD32657DFD}
+		{E6262647-07FC-4388-AE20-48C5B9347383} = {8C69F3F4-4185-4410-B7F4-30F55E6A7D3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {349CB2B9-C9BA-4265-B28F-767B87126231}
+	EndGlobalSection
+EndGlobal
